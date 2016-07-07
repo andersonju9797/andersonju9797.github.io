@@ -1,52 +1,89 @@
-#name {
-	font-size: 72px;
-	margin: auto;
-	text-align: center;
-	margin-top: 2%;
-	padding: 10px;
-	font-family: 'Roboto';
-	width: 35%;
-	color: #FFF;
+body {
+	font-size: 100%;
 }
 
-#description {
-	font-size: 16px;
-	text-align: center;
-	color: #FFF;
-	margin-top: 1%;
-}
-
-#face {
-	width: 20%;
-	height: auto;
-	display: block;
-	position: relative;
-	background-color: #6DBDD6;
-	margin-left: 10%;
-	margin-top: 5%
-}
-
-header .row,
-footer .row {
-  display: flex;
-  align-items: center;
-  margin-top: 0;
-  background-color: #003366;
-}
-
-header nav {
-  display: flex;
-  justify-content: flex-end;
-}
-
-header h1 {
-	padding: 2%;
-	font-size: 1.5em;
-	margin: 0;
-	color: #FFF;
-}
-
-.container {
-	margin: 0;
+html, body {
 	width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    outline: 0px;
+}
+
+.navbar-header img {
+	width: 7%;
+	height: auto;
+	margin-top: 1%;
+	margin-right: 3%;
+	display: inline-block;
+}
+
+.navbar-header a {
+	display: inline-block;
+	font-family: 'Roboto';
+	color: #FFF;
+	font-size: 1em;
+	margin-top: 3%;
+}
+
+.container-fluid {
+	color: #FFF;
+	font-family: 'Roboto';
+}
+
+.container-fluid ul {
+	margin-right: 10%;
+}
+
+.fullPage {
+	width: 100%;
+	height: 100%;
+	background-size: cover;	
+	position: relative;
+}
+
+#frontpage {
+	background-color: #033649;
+}
+
+#intro {
+	float: none;
+	padding-bottom: 50%;
+	padding-top: 20%;
+	height: 230px;
+	top: 0px!important;
+	text-align: center;
+	color: #FFF;
+	font-family: 'Roboto';
+	background-color: #031634;
+}
+
+#intro h1 {
+	font-size: 7em;
+}
+
+.face {
+	width: 70%;
+	height: auto;
+	float: right;
+	margin-top: 2%;
+	border-radius: 2%
+}
+
+.col-sm-4 {
+	font-size: 1.8em;
+	font-family: 'Roboto';
+	margin-top: 1%;
+	background-color: #E8DDCB;
+	border-radius: 2%;
+}
+
+#about {
+	background-color: #FAFAFA;
+}
+
+.headings {
+	margin-top: 4%;
+	text-align: center;
 }
