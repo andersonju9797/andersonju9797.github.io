@@ -64,7 +64,7 @@ html, body {
 }
 
 .face {
-	width: 70%;
+	width: 60.8%;
 	height: auto;
 	float: right;
 	margin-top: 2%;
@@ -72,7 +72,7 @@ html, body {
 }
 
 .col-sm-4 {
-	font-size: 1.8em;
+	font-size: 1.74em;
 	font-family: 'Roboto';
 	margin-top: 1%;
 	background-color: #E8DDCB;
@@ -86,4 +86,35 @@ html, body {
 .headings {
 	margin-top: 4%;
 	text-align: center;
+}
+
+.expblock {
+	height: 42%;
+	width: 42%;
+	color: #FAFAFA;
+}
+
+.expblock h2 {
+	font-size: 3.5em;
+	text-align: center;
+}
+
+.expblock li {
+	font-size: 1.5em;
+}
+
+#work {
+	background-color: #CDB380;
+}
+
+#volunteer {
+	background-color: #031634;
+}
+
+#projects {
+	background-color: #036564;
+}
+
+#skills {
+	background-color: #033649;
 }
